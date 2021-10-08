@@ -4,6 +4,9 @@
 - [HTML](#html)
     - [Membuat Berkas HTML](#membuat-berkas-html)
     - [Tag Dasar](#tag-dasar)
+    - [Komentar](#komentar)
+    - [Gaya dan Warna](#gaya-dan-warna)
+    - [Memformat Halaman](#memformat-halaman)
 - [Referensi](#referensi)
 
 ## HTML
@@ -83,6 +86,59 @@
         <p>H<sub>2</sub>O adalah rumus kimia dari air</p> <!--subscript-->
         <p>10<sup>2</sup> sama dengan 100</p> <!--superscript-->
     </body>
+    ```
+
+### Komentar
+
+1. Komentar dalam HTML menggunakan tag <!-- -->, contoh penggunaan tag <!-- -->:
+    ```html
+    <!-- Ini adalah komentar -->
+    ```
+
+### Gaya dan Warna
+
+1. Untuk pemberian gaya pada tag dalam HTML dapat menggunakan atribut style, contoh penggunaan atribut style untuk mengubah warna teks dan latar belakang teks:
+    ```html
+    <p style="color: red; background-color: blue;">Merah</p> <!-- teks berwarna merah dengan latar belakang biru -->
+    ```
+
+### Memformat Halaman
+
+1. Tag layout dasar umum suatu web adalah tag <header>, <main>, dan <footer>, contoh penggunaan tag <header>, <main>, dan <footer>:
+    ```html
+    <body>
+        <header> <!-- bagian atas -->
+        </header>
+        <main> <!-- bagian utama -->
+        </main>
+        <footer> <!-- bagian bawah -->
+        </footer>
+    </body>
+    ```
+2. Tag <nav> umum digunakan untuk navigasi, contoh penggunaan tag <nav>:
+    ```html
+    <header>
+        <nav> <!-- navigasi bisa berisi link -->
+        </nav>
+    </header>
+    ```
+3. Tag <article> umum digunakan untuk pengelompokan <section> untuk artikel, contoh penggunaan tag <article> dan <section>:
+    ```html
+    <main>
+        <article> <!-- artikel -->
+            <section> <!-- seksi 1 -->
+            </section>
+            <section> <!-- seksi 2 -->
+            </section>
+        </article>
+    </main>
+    ```    
+4. Tag <aside> umum digunakan di dalam tag <section> untuk teks yang tidak terlalu berhubungan dengan konten inti, contoh penggunaan tag <aside>:
+    ```html
+    <section>
+        <aside> <!-- teks sampingan -->
+        </aside>
+    </section>
     ```
 
 ## Referensi
