@@ -141,5 +141,67 @@
     </section>
     ```
 
+### Tautan
+1. Untuk dapat membuat sebuah tautan, kita harus menggunakan tag `<a>` dengan atribut `href` berisi tautan yang ingin dituju, contoh penggunaan tag `<a>`:
+    ```html
+    <body>
+        <a href="https://sub-program.github.io">Tautan ke situs >subProgram_</a> <!-- tautan menuju situs web >subProgram_ -->
+    </body>
+    ```
+2. Tautan yang dituju tidak harus mengarah ke luar situs, tetapi bisa juga tautan ke dalam situs itu sendiri, contoh:
+    ```html
+    <body>
+        <a href="/">Halaman Utama</a> <!-- tautan menuju ke halaman utama suatu situs web -->
+        <a href="/index.html">Halaman Utama</a> <!-- tautan menuju ke berkas index.html dari suatu situs web -->
+    </body>
+    ```
+3. Untuk pembuatan tautan yang tidak meninggalkan halaman, dapat menggunakan atribut `target` dengan isi `_blank`, contoh:
+    ```html
+    <body>
+        <a href="https://sub-program.github.io" target="_blank">Tautan ke situs >subProgram_</a> <!-- tautan menuju situs web >subProgram_ dengan tidak meninggalkan halaman -->
+    </body>
+    ```
+4. Di dalam tag `<a>` tidak hanya berisi teks biasa, tetapi bisa juga berisi elemen HTML, contoh:
+    ```html
+    <body>
+        <a href="/"><h1>Halaman Utama</h1></a> <!-- tautan berisi heading 1 menuju ke halaman utama suatu situs web -->
+    </body>
+    ```
+
+### Gambar
+1. Untuk menaruh gambar ke situs, kita dapat menggunakan tag `<img>` dengan atribut `src` berisi tautan ke berkas gambar yang akan ditempel diikuti dengan atribut `alt` berisi teks yang akan ditampilkan jika gambar tidak termuat, contoh penggunaan tag `<img>`:
+    ```html
+    <body>
+        <img src="lukisan.png" alt="gambar lukisan"> <!-- tag mengarahkan ke berkas lukisan.png dengan teks cadangan "gambar lukisan" -->
+    </body>
+    ```
+2. Ukuran gambar dapat diubah dengan munggunakan atribut `width` untuk mengatur panjang dan `height` untuk mengatur lebar gambar berisi angka yang menggunakan satuan piksel pada tag `<img>`, contoh:
+    ```html
+    <body>
+        <img width="100" height="100" src="lukisan.png" alt="gambar lukisan"> <!-- tag mengarahkan ke berkas lukisan.png dengan teks cadangan "gambar lukisan" dengan panjang 100 piksel dan lebar 100 piksel -->
+    </body>
+    ```
+
+### Vidio dan iFrame YouTube
+1. Untuk menaruh vidio ke situs, kita dapat menggunakan tag `<video>` dengan atribut `src` berisi tautan ke berkas gambar yang akan ditempel diikuti dengan teks di dalam tag yang akan ditampilkan jika vidio tidak termuat begitu juga dengan atribut `control` untuk mengaktifkan kontrol di dalam vidio, contoh penggunaan tag `<video>`:
+    ```html
+    <body>
+        <video src="vidio.mp4" control>Ini adalah vidio</video> <!-- tag mengarahkan ke berkas vidio.mp4 dengan teks cadangan "Ini adalah vidio" dengan kontrol -->
+    </body>
+    ```
+2. Pada tag `<video>` ada banyak atribut yang bisa digunakan, yaitu `width`, `height`, `poster`, `loop`, conoth penggunaan atribut-atribut tersebut:
+    ```html
+    <body>
+        <video src="vidio.mp4" control width="300" poster="lukisan.png" loop>Ini adalah vidio</video> <!-- tag mengarahkan ke berkas vidio.mp4 dengan teks cadangan "Ini adalah vidio" dengan kontrol, panjang 300 piksel, poster mengarah ke berkas lukisan.png, dan loop untuk mengulangi vidio ketika vidio selesai -->
+    </body>
+    ```
+3. Untuk menaruh vidio youtube ke situs, kita dapat menggunakan tag `<iframe>` dengan fitur bagikan embed dari youtube dan menyalin dan menempelnya ke situs, contoh:
+    ```html
+    <body>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- tag di atas adalah tag <iframe> hasil salinan yang mengarah ke vidio youtube -->
+    </body>
+    ```
+
 ## Referensi
 - HTML: <https://youtu.be/pQN-pnXPaVg>
