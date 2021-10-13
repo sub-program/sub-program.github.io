@@ -7,6 +7,9 @@
     - [Komentar](#komentar)
     - [Gaya dan Warna](#gaya-dan-warna)
     - [Memformat Halaman](#memformat-halaman)
+    - [Tautan](#tautan)
+    - [Gambar](#gambar)
+    - [Vidio dan iFrame YouTube](#vidio-dan-iframe-youtube)
 - [Referensi](#referensi)
 
 ## HTML
