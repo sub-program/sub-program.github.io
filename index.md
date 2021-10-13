@@ -192,7 +192,7 @@
         <video src="vidio.mp4" control>Ini adalah vidio</video> <!-- tag mengarahkan ke berkas vidio.mp4 dengan teks cadangan "Ini adalah vidio" dengan kontrol -->
     </body>
     ```
-2. Pada tag `<video>` ada banyak atribut yang bisa digunakan, yaitu `width`, `height`, `poster`, `loop`, conoth penggunaan atribut-atribut tersebut:
+2. Pada tag `<video>` ada banyak atribut yang bisa digunakan, yaitu `width`, `height`, `poster`, `loop`, contoh penggunaan atribut-atribut tersebut:
     ```html
     <body>
         <video src="vidio.mp4" control width="300" poster="lukisan.png" loop>Ini adalah vidio</video> <!-- tag mengarahkan ke berkas vidio.mp4 dengan teks cadangan "Ini adalah vidio" dengan kontrol, panjang 300 piksel, poster mengarah ke berkas lukisan.png, dan loop untuk mengulangi vidio ketika vidio selesai -->
