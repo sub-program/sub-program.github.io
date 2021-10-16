@@ -10,6 +10,7 @@
     - [Tautan](#tautan)
     - [Gambar](#gambar)
     - [Vidio dan iFrame YouTube](#vidio-dan-iframe-youtube)
+    - [Daftar](#daftar)
 - [Referensi](#referensi)
 
 ## HTML
@@ -203,6 +204,41 @@
     <body>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <!-- tag di atas adalah tag <iframe> hasil salinan yang mengarah ke vidio youtube -->
+    </body>
+    ```
+
+### Daftar
+1. Tag `<ul>` dan `<ol>` umum digunakan dalam pembuatan daftar pada HTML, contoh penggunan tag `<ul>` dan `<ol>`:
+    ```html
+    <body>
+        <ul></ul> <!-- ul adalah wadah daftar yang tidak urut -->
+        <ol></ol> <!-- ol adalah wadah daftar yang urut -->
+    </body>
+    ```
+2. tag `<li>` diletakkan di dalam tag `<ul>` atau `<ol>` sebagai daftar, contoh penggunaan tag `<li>`:
+    ```html
+    <body>
+        <ul>
+            <li>Daftar tidak urut</li>
+        </ul>
+        <ol>
+            <li>Daftar urut</li>
+        </ol>
+    </body>
+    ```
+3. tag `<dl>` adalah alternatif lain sebagai wadah daftar, umum digunakan untuk menjelaskan daftar, contoh penggunaan tag `<dl>`:
+    ```html
+    <body>
+        <dl></dl> <!-- ini adalah wadah deskripsi daftar -->
+    </body>
+    ```
+4. tag `<dt>` dan `<dd>` diletakkan di dalam tag `<dl>` sebagai daftar penjelas, `<dt>` adalah yang dijelaskan, `<dd>` adalah penjelasan, contoh penggunaan tag `<dt>` dan `<dd>`:
+    ```html
+    <body>
+        <dl>
+            <dt>Jeruk</dt> <!-- yang dideskripsikan -->
+            <dd>- adalah buah berwarna jingga</dd> <!-- deskripsi -->
+        </dl>
     </body>
     ```
 
