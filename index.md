@@ -11,6 +11,7 @@
     - [Gambar](#gambar)
     - [Vidio dan iFrame YouTube](#vidio-dan-iframe-youtube)
     - [Daftar](#daftar)
+    - [Tabel](#tabel)
 - [Referensi](#referensi)
 
 ## HTML
@@ -239,6 +240,100 @@
             <dt>Jeruk</dt> <!-- yang dideskripsikan -->
             <dd>- adalah buah berwarna jingga</dd> <!-- deskripsi -->
         </dl>
+    </body>
+    ```
+
+### Tabel
+1. Elemen tabel pada HTML diawali dengan tag `<table>` dan diakiri dengan tag penutup table `</table>`, contoh:
+    ```html
+    <body>
+        <table>
+        </table>
+    </body>
+    ```
+2. Di dalam elemen tabel, tag `<tr>` menyatakan baris tabel dan tag `<td>` menyatakan data tabel, contoh:
+    ```html
+    <body>
+        <table>
+            <tr>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </table>
+    </body>
+    ```
+3. Tag `<th>` menyatakan header tabel, contoh:
+    ```html
+    <body>
+        <table>
+            <tr>
+                <th>header kolom 1</th>
+                <th>header kolom 2</th>
+            </tr>
+            <tr>
+                <td>kolom 1</td>
+                <td>kolom 2</td>
+            </tr>
+        </table>
+    </body>
+    ```
+4. Tag `<caption>` menyatakan judul tabel, contoh:
+    ```html
+    <body>
+        <table>
+            <caption>Judul</caption>
+            <tr>
+                <th>header kolom 1</th>
+                <th>header kolom 2</th>
+            </tr>
+            <tr>
+                <td>kolom 1</td>
+                <td>kolom 2</td>
+            </tr>
+        </table>
+    </body>
+    ```
+5. Tag `<thead>` menyatakan atasan tabel, sedangkan tag `<tbody>` menyatakan bawahan tabel, contoh:
+    ```html
+    <body>
+        <table>
+            <thead>
+                <caption>Judul</caption>
+                <tr>
+                    <th>header kolom 1</th>
+                    <th>header kolom 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>kolom 1</td>
+                    <td>kolom 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    ```
+6. atribut `colspan` menyatakan kolum yang diambil, contoh:
+    ```html
+    <body>
+        <table>
+            <thead>
+                <caption>Judul</caption>
+                <tr>
+                    <th colspan="2">header 2 kolom</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>kolom 1</td>
+                    <td>kolom 2</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
     ```
 
