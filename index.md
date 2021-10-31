@@ -244,7 +244,7 @@
     ```
 
 ### Tabel
-1. Elemen tabel pada HTML diawali dengan tag `<table>` dan diakiri dengan tag penutup table `</table>`, contoh:
+1. Elemen tabel pada HTML diawali dengan tag `<table>` dan diakiri dengan tag penutup tabel `</table>`, contoh:
     ```html
     <body>
         <table>
