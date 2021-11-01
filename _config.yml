@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 lang: id
+plugins:
+  - jekyll-redirect-from
