@@ -12,6 +12,8 @@
     - [Vidio dan iFrame YouTube](#vidio-dan-iframe-youtube)
     - [Daftar](#daftar)
     - [Tabel](#tabel)
+    - [Div dan Span](#div-dan-span)
+    - [Input dan Form](#input-dan-form)
 - [Referensi](#referensi)
 
 ## HTML
@@ -334,6 +336,54 @@
                 </tr>
             </tbody>
         </table>
+    </body>
+    ```
+
+### Div dan Span
+1. Tag `<div>` dan `<span>` umum digunakan sebagai wadah, `<div>` adalah elemen block dan `<span>` adalah elemen inline, contoh:
+    ```html
+    <body>
+        <div>div1</div>
+        <div>div2</div>
+        <span>span1</span>
+        <span>span2</span>
+    </body>
+    ```
+
+### Input dan Form
+1. Pada HTML, tag `<input>` digunakan untuk menerima input dari pengguna disertai dengan atribut `type` yang berisi tipe input yang diinginkan, seperti `text`, `password`, dan lain-lain, contoh:
+    ```html
+    <body>
+        <input type="text">
+        <input type="password">
+    </body>
+    ```
+2. Atribut `value` pada elemen input digunakan untuk menyatakan isi default, contoh:
+    ```html
+    <body>
+        <input type="text" value="Username">
+        <input type="password">
+    </body>
+    ```
+3. Tag `<textarea>` digunakan untuk menerima input teks multi-line yang juga bisa di-resize dan isi konten adalah isi defaultnya, contoh:
+    ```html
+    <body>
+        <textarea>Input teks multi-line</textarea>
+    </body>
+    ```
+4. Atribut `rows` dan `cols` pada elemen textarea digunakan untuk menentukan ukuran, contoh:
+    ```html
+    <body>
+        <textarea rows="10" cols="20">Input teks multi-line</textarea>
+    </body>
+    ```
+5. Tag `<form>` digunakan untuk menampung input yang ada di dalamnya, contoh:
+    ```html
+    <body>
+        <form>
+            <input type="text">
+            <input type="submit">
+        </form>
     </body>
     ```
 
