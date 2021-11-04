@@ -1,20 +1,4 @@
 # &gt;subProgram_
-## Daftar Isi
-- [Daftar Isi](#daftar-isi)
-- [HTML](#html)
-    - [Membuat Berkas HTML](#membuat-berkas-html)
-    - [Tag Dasar](#tag-dasar)
-    - [Komentar](#komentar)
-    - [Gaya dan Warna](#gaya-dan-warna)
-    - [Memformat Halaman](#memformat-halaman)
-    - [Tautan](#tautan)
-    - [Gambar](#gambar)
-    - [Vidio dan iFrame YouTube](#vidio-dan-iframe-youtube)
-    - [Daftar](#daftar)
-    - [Tabel](#tabel)
-    - [Div dan Span](#div-dan-span)
-    - [Input dan Form](#input-dan-form)
-- [Referensi](#referensi)
 
 ## HTML
 ### Membuat Berkas HTML
