@@ -387,5 +387,25 @@
     </body>
     ```
 
+### iFrame
+1. Tag `<iframe>` digunakan untuk menempelkan situs web, memiliki beberapa atribut, yaitu `src` sebagai sumber, `frameborder` menyatakan border frame, `width` dan `height` menyatakan ukuran frame, teks di dalam elemen iframe berfungsi sebagai teks default, contoh:
+    ```html
+    <body>
+        <iframe src="https://sub-program.github.io/" frameborder="0" width="1000" height="500">Tidak dapat memuat iframe</iframe>
+    </body>
+    ```
+
+### Tag Meta
+1. Tag meta berfungsi menyampaikan informasi mengenai berkas HTML terutama pada mesin pencari, contoh:
+    ```html
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ini deskripsi situs">
+        <meta name="author" content="Surya">
+        <meta name="keywords" content="HTML, >subProgram_, sub-program">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    ```
+
 ## Referensi
 - HTML: <https://youtu.be/pQN-pnXPaVg>
